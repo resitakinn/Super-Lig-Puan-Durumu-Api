@@ -8,5 +8,7 @@ Bu proje, futbolseverlerin Süper Lig'deki takımların puan durumunu kolayca ö
 3. Hızlı ve Güvenilir: API hızlı yanıt süreleri sunar ve güvenilir bir şekilde çalışır.
 4. Açık Kaynaklı: Proje açık kaynaklıdır, böylece katkıda bulunabilir ve özelleştirebilirsiniz.
 
+## Ekran Görüntüsü 
 
 
+![puan-durumu](https://github.com/resitakinn/Super-Lig-Puan-Durumu-Api/assets/103512411/a5437889-ab2f-4d7a-8ef7-99e642b4bd72)
