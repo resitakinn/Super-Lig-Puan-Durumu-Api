@@ -1,0 +1,9 @@
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php
+
+#404
+## burda 404 sayfasını nerde görünmek istiyorsanız oranın url linki yapıştırın
+ErrorDocument 404 http://localhost/TFF-Puan-Durumu/puanDurumu
