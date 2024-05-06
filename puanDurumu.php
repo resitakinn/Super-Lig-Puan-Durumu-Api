@@ -46,7 +46,7 @@
         console.log("Tıklanan URL: " + hedefURL);
         // Burada hedefURL'yi istediğiniz şekilde işleyebilirsiniz, örneğin başka bir sayfaya yönlendirebilirsiniz.
         window.location.href = "hedef_sayfa?kulupID=" + hedefURL;
-        // veya AJAX kullanarak isteği gönderebilirsiniz
+        
     }
 
     document.addEventListener('click', function(event) {
@@ -119,7 +119,7 @@
  
   
     echo "<table border='1'class=\"s-table container-fluid\" style=\"width:70%;\"> ";
-    echo "<th colspan=\"9\" class=\"text-center\"><h3>TRENDYOL SÜPER LİG PUAN DURUMU</h3></th>";
+    echo "<th colspan=\"9\" class=\"text-center\"><h3>PUAN DURUMU</h3></th>";
     echo "<tr class=\"griBG text-center\">";
     echo "<th>Takımlar</th>";
 
