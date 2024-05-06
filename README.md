@@ -1,5 +1,7 @@
 # Super Lig Puan Durumu API
+Her Hafta Güncel Puan Durumu otomatik yenilenir veriler Tamamen TFF Sitesinden alınıyor anlık<br>
 Super Lig Puan Durumu API, Süper Lig futbol puan durumu verilerini sağlayan bir API'dir. Bu API, Süper Lig'in güncel puan durumu bilgilerini almak için kullanılabilir.
+
 ## Amaç
 Bu proje, tamamen bilgi amaçlıdır. Herhangi bir amaç dışında kullanılmamıştır. tamamen yazılım alanında ilerleyen futbolseverlerin Süper Lig'deki takımların puan durumunu kolayca öğrenmelerini sağlamak amacıyla geliştirilmiştir. 
 ## Özellikler
