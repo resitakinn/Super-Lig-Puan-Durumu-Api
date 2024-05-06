@@ -93,7 +93,7 @@ if(!$_GET){
   curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
   $html = curl_exec($curl);
   curl_close($curl);
-  // Karakter kodlamasını belirle İçeriği Windows-1254'ten UTF-8'e dönüştür
+  // Karakter kodlaması
   $html_utf8 = mb_convert_encoding($html, 'UTF-8', 'Windows-1254');
 
 
