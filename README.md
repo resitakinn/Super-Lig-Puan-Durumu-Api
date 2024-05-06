@@ -1,7 +1,7 @@
 # Super Lig Puan Durumu API
 Super Lig Puan Durumu API, Türkiye Süper Lig futbol puan durumu verilerini sağlayan bir API'dir. Bu API, Süper Lig'in güncel puan durumu bilgilerini almak için kullanılabilir.
 ## Amaç
-Bu proje, tamamen bilgi amaçlı herhangi bir amaç dışında kullanılmamıştır tamamen  futbolseverlerin Süper Lig'deki takımların puan durumunu kolayca öğrenmelerini sağlamak amacıyla geliştirilmiştir. API, web siteleri, mobil uygulamalar veya diğer platformlar tarafından kullanılarak Süper Lig puan durumu verilerini görüntülemek için entegre edilebilen bir projedir.
+Bu proje, tamamen bilgi amaçlıdır. Herhangi bir amaç dışında kullanılmamıştır. tamamen  futbolseverlerin Süper Lig'deki takımların puan durumunu kolayca öğrenmelerini sağlamak amacıyla geliştirilmiştir. API, web siteleri, mobil uygulamalar veya diğer platformlar tarafından kullanılarak Süper Lig puan durumu verilerini görüntülemek için entegre edilebilen bir projedir.
 ## Özellikler
 1. Güncel Veriler: API, her zaman güncel Süper Lig puan durumu verilerini sağlar.
 2. Kolay Kullanım: Basit ve anlaşılır bir API yapısı ile kullanımı kolaydır.
