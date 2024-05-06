@@ -8,7 +8,5 @@ Bu proje, tamamen bilgi amaçlıdır. Herhangi bir amaç dışında kullanılmam
 3. Hızlı ve Güvenilir: API hızlı yanıt süreleri sunar ve güvenilir bir şekilde çalışır.
 4. Açık Kaynaklı: Proje açık kaynaklıdır, böylece katkıda bulunabilir ve özelleştirebilirsiniz.
 
-## Ekran Görüntüsü 
-
-
-![Super-Lig-Puan-Durumu](https://github.com/resitakinn/Super-Lig-Puan-Durumu-Api/assets/103512411/a5437889-ab2f-4d7a-8ef7-99e642b4bd72)
+## Ekran Görüntüsü
+![Super-Lig-Puan_Durumu](https://github.com/resitakinn/Super-Lig-Puan-Durumu-Api/assets/103512411/fe90c90e-4af3-4959-8b37-f3ad307ffb3d)
