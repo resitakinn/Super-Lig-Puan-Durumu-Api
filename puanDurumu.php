@@ -107,18 +107,22 @@
     
 
     // burası onemli 
-    // Takımlar Gelecek for dongüsü 
+    // Takımlar Gelecek for dongüsü  kac takım geldiği kontrol edilir
     $takim = [];
+    
     for ($i = 0; $i < 20; $i++) {
 
-        $details[0][$i] . "<br>";
+        if (isset($details[0][$i])) {
+            $takim[] = $details[0][$i];
+            $details[0][$i] . "<br>";
+        }
     }
 
     echo '<form id="myForm" action="hedef_sayfa" method="get">';
 
  
   
-    echo "<table border='1'class=\"s-table container-fluid\" style=\"width:70%;\"> ";
+    echo "<table border='1'class=\"s-table container-fluid\" style=\"width:80%;\"> ";
     echo "<th colspan=\"9\" class=\"text-center\"><h3>PUAN DURUMU</h3></th>";
     echo "<tr class=\"griBG text-center\">";
     echo "<th>Takımlar</th>";
@@ -131,9 +135,9 @@
     }
     echo "</tr>";
 
-
+    $detailssCount = count($detailss[0]);
     $details_index = 0;
-    for ($j = 8; $j < 168; $j++) {
+    for ($j = 8; $j < $detailssCount && $j < 168; $j++) {
         $say = $detailss[0][$j];
 
         // Her 8 sayıda bir yeni satır aç
