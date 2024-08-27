@@ -4,7 +4,7 @@
 
 if(!$_GET){
   //* hiç bir deger gelmezse direk anasayfa yönlendirme yapılır
-    header("Refresh:1;url=puanDurumu.php.php");
+    header("Location:puanDurumu.php");
 }else {
   
     $url = $_GET['kulupID'];
