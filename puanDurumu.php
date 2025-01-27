@@ -65,6 +65,7 @@
 
 
     <?php
+    
     // cURL kullanarak URL'den içeriği al
     $curl = curl_init();
     curl_setopt($curl, CURLOPT_URL, "https://www.tff.org/default.aspx?pageID=198");
@@ -122,7 +123,7 @@
 
  
   
-    echo "<table border='1'class=\"s-table container-fluid\" style=\"width:80%;\"> ";
+    echo "<table border='1'class=\"s-table container-fluid \" style=\"width:80%;\"> ";
     echo "<th colspan=\"9\" class=\"text-center\"><h3>PUAN DURUMU</h3></th>";
     echo "<tr class=\"griBG text-center\">";
     echo "<th>Takımlar</th>";
@@ -137,7 +138,8 @@
 
     $detailssCount = count($detailss[0]);
     $details_index = 0;
-    for ($j = 8; $j < $detailssCount && $j < 168; $j++) {
+    // 160 olan sayı 168 di ama 168 de hata veriyor
+    for ($j = 8; $j < $detailssCount && $j < 160; $j++) {
         $say = $detailss[0][$j];
 
         // Her 8 sayıda bir yeni satır aç
@@ -171,7 +173,7 @@
     ?>
 
 
-
+<br><br>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
